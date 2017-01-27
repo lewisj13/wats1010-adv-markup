@@ -1,1 +1,52 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+  background-color: lightblue;
+  
+}
+
+
+nav ul li {
+  display: inline; 
+
+}
+
+a.active { 
+  font-weight: bold;
+}
+
+#sidebar {
+  width: 250px;
+  float: right; 
+  background: gray;
+  padding: 15px;
+  border: solid lightgray;
+  margin-left: 30px;
+  margin-bottom:20px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    
+}
+
+.poem {
+  list-style-type: none;
+  padding-left: 100px;
+  font-size: large;
+  font-style: italic;
+  
+}
+
+.bio-photo {
+  width: 200px;
+  float: left;
+  margin-right: 80px;
+  margin-left: 20px;
+  text-align: center;
+  font-style: italic
+}
+
+table {
+  text-align: center;
+}
+
